@@ -1,5 +1,4 @@
 function createPhoneNumber(numbers) {
-    let stringNumbers = numbers.join("").toString()
+    const stringNumbers = numbers.join("")
     return `(${stringNumbers.slice(0, 3)}) ${stringNumbers.slice(3, 6)}-${stringNumbers.slice(6)}`
-
 }
