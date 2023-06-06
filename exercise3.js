@@ -1,3 +1,3 @@
 function reverseString(string) {
-    return string.reverse();
+    return [...string].reverse().join('');
 }
